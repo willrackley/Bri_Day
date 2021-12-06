@@ -7,7 +7,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Bri Day</title>
   <script src="https://kit.fontawesome.com/58017dd687.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/styles.css" />
+  <link rel="stylesheet" href="./assets/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
@@ -15,20 +18,20 @@
     <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid ">
-            <a class="navbar-brand ml-0" href="/">Bri Day</a>
+            <a class="navbar-brand ml-0 buttonText" href="/">BRI DAY</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#driverDiv">MEET YOUR DRIVER</a>
+                    <a class="buttonText nav-link" aria-current="page" href="#driverDiv">MEET YOUR DRIVER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">SHOPPING</a>
+                    <a class="nav-link buttonText" href="#shoppingDiv">SHOPPING</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WINE & DINE</a>
+                <li class="nav-item ">
+                    <a class="nav-link buttonText" href="#wineDiv">WINE & DINE</a>
                 </li>
                 </ul>
             </div>
@@ -40,22 +43,22 @@
                 <div class="align-self-center w-100">
                     <h3 class="text-center text-white mb-4">WELCOME TO BRI DAY 2021!</h3>
                     <p class="text-center text-white px-4 mb-4 lh-lg">
-                        Let's celebrate your day by doing some of the things you enjoy most. You have been given the opportunity to have a shopping spree (speak to your driver about your spending amount). We have also provided covid friendly restuarants for wining and & dining. Your strikingly handsome driver is here to escort you around town to any location you wish. 
+                        Let's celebrate your day by doing some of the things you enjoy most. You have been given the opportunity to have a shopping spree (speak to your driver about your spending amount). We have provided COVID FRIENDLY options for shopping, wining, and dining. Your strikingly handsome driver is here to escort you around town to any location you wish. 
                     </p>
 
                     <a href="#driverDiv">
                         <div class="text-center  mb-2">
-                            <button type="button" class="bg-dark  my-3 btn btn-outline-light mx-2">MEET YOUR DRIVER</button>
+                            <button type="button" class="bg-dark my-3 btn btn-outline-light buttonText mx-2">MEET YOUR DRIVER</button>
                         </div>
                     </a>
                     
                     <div class=" text-center w-100 px-4" role="group" aria-label="Basic example">
                         <a href="#shoppingDiv">
-                            <button type="button" class="btn py-4  mx-2"><i class="fab text-white fa-shopify fa-4x"></i><div class='text-white'>SHOP</div></button>
+                            <button type="button" class="btn py-4  mx-2"><i class="fab text-white fa-shopify fa-4x"></i><div class='text-white buttonText'>SHOP</div></button>
                         </a>  
                         
                         <a href="#wineDiv">
-                            <button type="button" class="btn py-4  mx-2"><i class="fas fa-wine-glass-alt text-white fa-4x"></i><div class='text-white'>WINE & DINE</div></button>
+                            <button type="button" class="btn py-4  mx-2"><i class="fas fa-wine-glass-alt text-white fa-4x"></i><div class='text-white buttonText'>WINE & DINE</div></button>
                         </a>
                     </div>
                     
@@ -67,25 +70,132 @@
             <div id='driverDiv' class="card mx-auto my-5 border-0" style="width: 20rem;">
             <img class="card-img-top" src="./assets/images/IMG_0528.JPG" alt="image of handsomw husband">
             <div class="card-body">
-                <h5 class="card-title">Will Rackley</h5>
-                <p class="card-text">Will has been driving for almost 16 years. In his free time he loves to hang out with his brillant and beautiful wife. He also loves doing outdoor activities with his son</p>
+                <h5 class="card-title buttonText">Will Rackley</h5>
+                <p class="card-text buttonText">Will has been driving for almost 16 years. In his free time he loves to hang out with his brillant and beautiful wife. He also loves doing outdoor activities with his son</p>
             </div>
             </div>
         </div>
 
-        <div class="container-fluid bg-dark">
-            <h2 id='shoppingDiv' class='text-white text-center py-5'>SHOPPING</h2>
+        <div class="container-fluid bg-dark pb-5">
+            <h2 id='shoppingDiv' class='buttonText text-white text-center py-5'>SHOPPING</h2>
 
-            <div id='driverDiv' class="card mx-auto border-0" style="width: 20rem;">
-                <div class="card-header text-center">
-                    <h5>HOUSTON PREMIUM OUTLETS</h5>
-                  </div>
-                <img class="card-img-top" src="./assets/images/IMG_0528.JPG" alt="image of handsomw husband">
-                <div class="card-body">
-                    <h5 class="card-title">Will Rackley</h5>
-                    <p class="card-text">Will has been driving for almost 16 years. In his free time he loves to hang out with his brillant and beautiful wife. He also loves doing outdoor activities with his son</p>
+            
+                <div id='shoppinigDiv' class="card shoppingCards mx-auto mb-5 border-0" style="width: 20rem;">
+                    <div class="shoppingCards card-header text-center">
+                        <h5>HOUSTON PREMIUM OUTLETS</h5>
+                      </div>
+                    <img class="card-img-top" src="./assets/images/houstonOutlet.jpeg" alt="houston outlet">
+                    <div class="card-body text-center">
+                        <h5 class="card-title buttonText mb-3">29300 Hempstead Rd, Cypress, TX 77433</h5>
+                        <a href='https://www.premiumoutlets.com/outlet/houston/stores' class='text-decoration-none text-dark' target='_blank'>
+                            <div class="buttonText button btn-dark mt-2"> STORE DIRECTORY</div>
+                        </a>
+                    </div>
                 </div>
+
+                <div id='shoppinigDiv' class="card shoppingCards mx-auto border-0 mb-5" style="width: 20rem;">
+                    <div class="shoppingCards buttonText card-header text-center">
+                        <h5>River Oaks District</h5>
+                      </div>
+                    <img class="card-img-top" src="./assets/images/riverOaksDistrict.jpeg" alt="river oaks district">
+                    <div class="card-body text-center">
+                        <h5 class="card-title buttonText mb-3">4444 Westheimer Road,
+                            Houston, TX, 77027,
+                            United States</h5>
+                        <a href='https://www.riveroaksdistrict.com/store-listing' class='text-decoration-none text-dark' target='_blank'>
+                            <div class="button btn-dark buttonText mt-2"> STORE DIRECTORY</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id='shoppinigDiv' class="card shoppingCards mx-auto border-0 mb-5" style="width: 20rem;">
+                    <div class="shoppingCards card-header text-center">
+                        <h5>HEIGHTS MERCANTILE</h5>
+                      </div>
+                    <img class="card-img-top" src="./assets/images/heightsMercantile.jpeg" alt="heights mercantile">
+                    <div class="card-body text-center">
+                        <h5 class="card-title mb-3 buttonText">714 Yale Street, Suite 2Z
+                            Houston, TX 77007</h5>
+                        <a href='https://www.heightsmercantile.com/directory' class='text-decoration-none text-dark' target='_blank'>
+                            <div class="button buttonText btn-dark mt-2"> STORE DIRECTORY</div>
+                        </a>
+                    </div>
+                </div>
+           
+                <div id='shoppinigDiv' class="card shoppingCards mx-auto border-0 mb-5" style="width: 20rem;">
+                    <div class="shoppingCards card-header text-center">
+                        <h5>CITY CENTRE</h5>
+                      </div>
+                    <img class="card-img-top" src="./assets/images/cityCentre.jpeg" alt="heights mercantile">
+                    <div class="card-body text-center">
+                        <h5 class="card-title buttonText mb-3">800 Town and Country Blvd, Houston, TX 77024</h5>
+                        <a href='https://citycentrehouston.com/directory/#shop' class='text-decoration-none text-dark' target='_blank'>
+                            <div class="button buttonText btn-dark mt-2"> STORE DIRECTORY</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id='shoppinigDiv' class="card shoppingCards mx-auto border-0 mb-5" style="width: 20rem;">
+                    <div class="shoppingCards card-header text-center">
+                        <h5>HIGHLAND VILLAGE</h5>
+                      </div>
+                    <img class="card-img-top" src="./assets/images/highlandVillage.jpeg" alt="heights mercantile">
+                    <div class="card-body buttonText text-center">
+                        <h5 class="card-title mb-3 buttonText">4055 Westheimer Rd, Houston, TX 77027</h5>
+                        <a href='https://www.houstonhighlandvillage.com/' class='text-decoration-none text-dark' target='_blank'>
+                            <div class="button buttonText btn-dark mt-2"> STORE DIRECTORY</div>
+                        </a>
+                    </div>
+                </div>
+            
+        </div>
+
+        <div class="container-fluidpb-5">
+            <h2 id='wineDiv' class='text-center py-5 buttonText'>WINE & DINE</h2>
+                <div id='wdDiv' class="card bg-dark shoppingCards mx-auto mb-5 border-0" style="width: 20rem;">
+                    <div class="wdCards  card-header text-white text-center">
+                        <h5>BOHEME</h5>
+                      </div>
+                    <img class="card-img-top" src="./assets/images/boheme.png" alt="houston outlet">
+                    <div class="card-body text-white text-center">
+                        <h5 class="card-title buttonText mb-3">307 Fairview,
+                            Houston, TX 77006</h5>
+                        <a href='https://www.barboheme.com/' class='text-decoration-none text-dark' target='_blank'>
+                            <div class="button buttonText btn-light text-dark mt-2">VIEW RESTAURANT</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id='wdDiv' class="card bg-dark shoppingCards mx-auto mb-5 border-0" style="width: 20rem;">
+                    <div class="wdCards  card-header text-white text-center">
+                        <h5>SPRING STREET BEER AND WINE GARDEN</h5>
+                      </div>
+                    <img class="card-img-top" src="./assets/images/springStreet.jpeg" alt="houston outlet">
+                    <div class="card-body text-white text-center">
+                        <h5 class="card-title mb-3 buttonText">1920 Houston Ave, Houston, TX 77007</h5>
+                        <a href='https://www.springstreethouston.com/' class='text-decoration-none text-dark' target='_blank'>
+                            <div class="button buttonText btn-light text-dark mt-2">VIEW RESTAURANT</div>
+                        </a>
+                    </div>
+                </div>
+
+                <div id='wdDiv' class="card bg-dark shoppingCards mx-auto mb-5 border-0" style="width: 20rem;">
+                    <div class="wdCards  card-header text-white text-center">
+                        <h5>POSTINO CAFE</h5>
+                      </div>
+                    <img class="card-img-top" src="./assets/images/postino.jpeg" alt="houston outlet">
+                    <div class="card-body text-white text-center">
+                        <h5 class="card-title buttonText mb-3">642 Yale St, Houston, TX 77007</h5>
+                        <a href='https://www.postinowinecafe.com/locations/texas/town-country-houston/' class='text-decoration-none text-dark' target='_blank'>
+                            <div class="button buttonText btn-light text-dark mt-2">VIEW RESTAURANT</div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+
             </div>
+
+            
         </div>
     </div>
 
